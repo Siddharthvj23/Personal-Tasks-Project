@@ -1,10 +1,9 @@
-
 import React, { useEffect, useState } from 'react';
 import { useApp } from '@/contexts/AppContext';
 import { Button } from '@/components/ui/button';
 import { Card, CardContent, CardHeader, CardTitle } from '@/components/ui/card';
 import { Badge } from '@/components/ui/badge';
-import { Play, Pause, Square, Timer } from 'lucide-react';
+import { Play, Pause, Square, Timer, Plus } from 'lucide-react';
 
 export function TimerView() {
   const { state, dispatch } = useApp();
