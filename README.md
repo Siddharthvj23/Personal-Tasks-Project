@@ -36,13 +36,13 @@ A responsive full-stack web application to help users manage daily tasks, track 
 ## Database
 - PostgreSQL with schemas for:
 
-Users
+  - Users
 
-Tasks
+  - Tasks
 
-Time Entries
+  - Time Entries
 
-Indexed and relational data models
+  - Indexed and relational data models
 
 ## Installation
 
